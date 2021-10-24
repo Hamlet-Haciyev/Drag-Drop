@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+// body {
+//   margin: 20px 0;
+//   .container {
+//     width: 1170px;
+//     margin: 0 auto;
+//     .images {
+//       display: flex;
+//       justify-content: space-between;
+//       .image-1 {
+//         border: 1px solid;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         width: 400px;
+//         height: 250px;
+//         padding: 30px;
+
+//         img {
+//           max-width: 100%;
+//         }
+//         input {
+//           display: none;
+//         }
+//       }
+//       .image-2 {
+//         border: 1px solid;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         width: 400px;
+//         height: 250px;
+//         padding: 30px;
+
+//         img {
+//           max-width: 100%;
+//         }
+//         input {
+//           display: none;
+//         }
+//       }
+//     }
+//   }
+// }
+
+.drag-drop {
+  width: 1170px;
+  margin: 0 auto;
+  .wrapped {
+    margin: 20px 0;
+    border: 1px solid;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+}
